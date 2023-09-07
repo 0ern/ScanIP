@@ -30,7 +30,7 @@ Any help or advice on developing this script and implementing new features is we
 
 1. **Increase the scanning speed**: currently with few IP addresses in the list it is fast. When there are many IP addresses it takes a long time to scan them all.
 
-2. **Percentage of project**: was tried to implement the display of a percentage of scan progress on the total number of addresses written to the list. the PowerShell Write-Progress command was used but in PowerShell it is displayed but in the executable it is not.
+2. **Percentage of progress**: was tried to implement the display of a percentage of scan progress on the total number of addresses written to the list. the PowerShell Write-Progress command was used but in PowerShell it is displayed but in the executable it is not.
 The code parts were commented out in the script.
 
 3. **GUI**: thanks to PS2EXE it is possible to generate the executable not in console but in window. It is currently ugly. I preferred to leave it on console with colored text. In the future it would be nice to have the executable in window but with the console style.
