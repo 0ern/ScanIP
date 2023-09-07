@@ -2,7 +2,7 @@
 
 A simple and basic script to show the connection status of multiple devices in the local network by listing IPv4 addresses in a text file instead of launching `cmd ping` command several times.
 
-<a href="https://raw.githubusercontent.com/0ern/ScanIP/main/Screenshot.png">![preview](https://github.com/0ern/ScanIP/blob/main/Screenshot.png)</a>
+
 
 
 
@@ -91,3 +91,5 @@ Set-ExecutionPolicy -ExecutionPolicy Undefined -Scope CurrentUser
 This script was written in PowerShell on Windows. For more details on PowerShell commands, refer to the [Microsoft documentation](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility). 
 
 The executable .exe file was generated thanks to the [PS2EXE](https://github.com/MScholtes/PS2EXE) tool.
+
+In case you mention or fork this repository, please quote me. Thanks.
