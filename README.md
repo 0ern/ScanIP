@@ -2,6 +2,9 @@
 
 A simple and basic script to show the connection status of multiple devices in the local network by listing IPv4 addresses in a text file instead of launching `cmd ping` command several times.
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/0ern/ScanIP/main/Screen.png"/>
+</p>
 
 
 
