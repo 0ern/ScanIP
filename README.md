@@ -30,10 +30,10 @@ Any help or advice on developing this script and implementing new features is we
 
 1. **Increase the scanning speed**: currently with few IP addresses in the list it is fast. When there are many IP addresses it takes a long time to scan them all.
 
-2. **Percentage of progress**: was tried to implement the display of a percentage of scan progress on the total number of addresses written to the list. the PowerShell Write-Progress command was used but in PowerShell it is displayed but in the executable it is not.
-The code parts were commented out in the script.
+2. **Percentage of progress**: was tried to implement the display of percentage of scan progress, over the total number of addresses written to the list. The PowerShell `Write-Progress` command was used. In PowerShell is displayed a bar but in the executable it is not.
+The code parts in the script were commented out.
 
-3. **GUI**: thanks to PS2EXE it is possible to generate the executable not in console but in window. It is currently ugly. I preferred to leave it on console with colored text. In the future it would be nice to have the executable in window but with the console style.
+3. **GUI**: thanks to PS2EXE is possible to generate the executable not in console but also in window. In window is currently ugly and opens a lot of windows for each `Write-Host` command. I'm not able to fix. So I preferred to leave on console with colored text. In the future it would be nice to have the executable in one window but with the console style.
 
 4. **Automatic detection**: automatic detection of all subnet addresses without having to manually write them to the list file.
 
