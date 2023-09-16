@@ -8,8 +8,7 @@ For example, this can be useful for industrial on-site works with a lot of machi
   <img src="https://raw.githubusercontent.com/0ern/ScanIP/main/Screen.png"/>
 </p>
 
-
-
+[//]: --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Instructions
 
@@ -19,14 +18,11 @@ For example, this can be useful for industrial on-site works with a lot of machi
 
 To change the IP addresses to be scanned, open the file `List_config.txt` and write an IP address on a single line. Then save it and run again the `ScanIP.exe`.
 
-
-
-
-
+[//]: --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Future features
 
-Any help or advice on developing this script and implementing new features is welcome. Please open a new Issue.
+Any help or advice on developing this script and implementing new features is welcome. Please open a new Discussion.
 
 1. **Increase the scanning speed**: currently with few IP addresses in the list it is fast. When there are many IP addresses it takes a long time to scan them all.
 
@@ -37,10 +33,7 @@ The code parts in the script were commented out.
 
 4. **Automatic detection**: automatic detection of all subnet addresses without having to manually write them to the list file.
 
-
-
-
-
+[//]: --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Generation of the executable
 
@@ -64,9 +57,7 @@ Win-PS2EXE
   <img src="https://raw.githubusercontent.com/0ern/ScanIP/main/PS2EXE_Screen.png"/>
 </p>
 
-
-
-
+[//]: --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 #### PowerShell Execution Policies
 
@@ -88,15 +79,11 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 Set-ExecutionPolicy -ExecutionPolicy Undefined -Scope CurrentUser
 ```
 
-
-
-
-
+[//]: --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## References
 
 This script was written in PowerShell on Windows. For more details on PowerShell commands, refer to the [Microsoft documentation](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility). 
-
 The executable .exe file was generated thanks to the [PS2EXE](https://github.com/MScholtes/PS2EXE) tool.
-
-In case you mention or fork this repository, please quote me. Thanks.
+In case you mention or fork this repository, please quote me.
+Thank you for reading this far.
