@@ -85,5 +85,7 @@ Set-ExecutionPolicy -ExecutionPolicy Undefined -Scope CurrentUser
 
 This script was written in PowerShell on Windows. For more details on PowerShell commands, refer to the [Microsoft documentation](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility). 
 The executable .exe file was generated thanks to the [PS2EXE](https://github.com/MScholtes/PS2EXE) tool.
+
 In case you mention or fork this repository, please quote me.
+
 Thank you for reading this far.
