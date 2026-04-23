@@ -32,7 +32,7 @@ If you have any arguments, be sure to replace the examples `-ExecutionPolicy Byp
 
 ## Before execute .bat
 
-Please, after generation, open the .bat file with a text editor and add the following command to achive the auto installation/update of PowerShell 7 via winget in order to be able to run the script.
+Please, after generation, open the .bat file with a text editor and add the following command at the begin of file, to achive the auto installation/update of PowerShell 7 via winget in order to be able to run the script.
 
 ```
 TITLE ScanIP
