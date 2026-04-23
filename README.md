@@ -28,7 +28,7 @@ OPTIONAL:
 
 In case you change name to the `ScanIP.ps1` file, then you have to update the name in `PS_Batch.ps1` at lines 79 and 80.
 
-And If you have any arguments, be sure to replace the examples `-ExecutionPolicy Bypass` with your own, or if you have none remove that parameter.
+If you have any arguments, be sure to replace the examples `-ExecutionPolicy Bypass` with your own, or if you have none remove that parameter.
 
 ## Before execute .bat
 
@@ -45,6 +45,17 @@ winget install --id Microsoft.PowerShell --source winget --disable-interactivity
 CLS
 :: Run script
 ```
+[//]: --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Install winget
+
+Just in case you haven't installed the fabulous [Windows Package Manager](https://learn.microsoft.com/it-it/windows/package-manager/), here are the 3 commands to run separately into PowerShell terminal:
+
+`Invoke-WebRequest -Uri https://aka.ms/getwinget -OutFile winget.msixbundle`
+
+`Add-AppxPackage winget.msixbundle`
+
+`Remove-Item winget.msixbundle`
 
 [//]: --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
